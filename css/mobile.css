@@ -1,0 +1,23 @@
+/* Mobile */
+@media(max-width: 768px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        height: 8rem;
+        padding: 1.25rem;
+    }
+
+    .navbar a {
+        padding: 0.625rem;
+        margin: 0 3px;
+        font-size: .85rem;
+    }
+
+     .flex-items {
+        flex-direction: column;
+    }
+
+    .flex-columns .column, .flex-grid .column {
+        flex: 100%;
+        max-width: 100%;
+    }
